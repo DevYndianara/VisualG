@@ -1,9 +1,9 @@
 Algoritmo "pagamento"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Ler o nome de um(a) funcion·rio(a), o valor que ele(a) recebe
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : 
+// Descri√ß√£o   : Ler o nome de um(a) funcion√°rio(a), o valor que ele(a) recebe
 // por hora, e a quantidade de horas trabalhadas por ele(a). Ao final, mostra o
-// valor do pagamento do funcion·rio(a) com uma mensagem explicativa.
+// valor do pagamento do funcion√°rio(a) com uma mensagem explicativa.
 // Autor(a)    : Yndianara
 // Data atual  : 07/06/2023
 Var
@@ -11,7 +11,7 @@ Var
    vh, ht, pg: inteiro
 
 Inicio
-      escreval("|---- PAGAMENTO FUNCION¡RIOS ----|")
+      escreval("|---- PAGAMENTO FUNCION√ÅRIOS ----|")
       escreval("|                                |")
       escreva("|Nome: ")
       leia(nome)
