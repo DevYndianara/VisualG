@@ -1,6 +1,12 @@
 Algoritmo "Exercicio3"
-// Disciplina   : [Linguagem e L�gica de Programa��o] 
+// Disciplina   : [Linguagem e Lógica de Programação] 
 // Professor   :  Nelio
+// Descrição : Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
+// casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida,
+// o programa deve mostrar o valor da área do terreno, bem como o valor do preço do terreno, ambos com
+// duas casas decimais.
+// Aluno (a) : Yndianara
+// Data: 06/06/2023
 
 Var
    larg, comp, metro_quad: real
