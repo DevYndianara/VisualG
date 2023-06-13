@@ -1,11 +1,11 @@
 Algoritmo "temperatura"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Criar um programa para converter uma medida de temperatura da
-// escala Celsius para Fahrenheit ou vice-versa. Para isso, você deve construir
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : 
+// DescriÃ§Ã£o   : Criar um programa para converter uma medida de temperatura da
+// escala Celsius para Fahrenheit ou vice-versa. Para isso, vocÃª deve construir
 // um programa que leia a letra "C" ou "F" indicando em qual escala vai ser
 // informada uma temperatura. Em seguida o programa deve mostrar a temperatura na
-// outra escala com duas casas decimais. A ceguir é dada a fórmula para converter
+// outra escala com duas casas decimais. A ceguir Ã© dada a fÃ³rmula para converter
 // de Fahrenheit para Celsius.
 // Autor(a)    : Yndianara
 // Data atual  : 12/06/2023
