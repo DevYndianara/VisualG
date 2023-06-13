@@ -1,5 +1,7 @@
 Algoritmo "retangulo"
-// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição : Fazer um programa para ler as medidas da base e altura de um retângulo. Em seguida, mostrar o valor
+// da área, perímetro e diagonal deste retângulo, com quatro casas decimais, conforme exemplos
 // Data atual  : 05/06/2023
 Var
    base, alt, area, perimetro, diagonal: real
