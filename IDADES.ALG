@@ -1,6 +1,8 @@
 Algoritmo "idades"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : 
+// Descrição : Fazer um programa para ler o nome e idade de duas pessoas. Ao final mostrar uma mensagem com os
+// nomes e a idade média entre essas pessoas, com uma casa decimal
 // Aluno (a) : Yndianara
 // Data: 07/06/2023
 
