@@ -1,6 +1,8 @@
 Algoritmo "idades"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : 
+// Aluno (a) : Yndianara
+// Data: 07/06/2023
 
 Var
    idade1, idade2: inteiro
@@ -24,7 +26,7 @@ Inicio
 
    media <- (idade1 + idade2) / 2
 
-   escreva("A idade media de ", nome1, " e ", nome2, " é de", media, " anos.")
+   escreva("A idade media de ", nome1, " e ", nome2, " Ã© de", media, " anos.")
 
 
 
