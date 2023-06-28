@@ -11,22 +11,34 @@ Algoritmo "combustivel"
 // Autor(a)    : Yndianara
 // Data atual  : 22/06/2023
 Var
-   x, alc, gas, dies, soma: inteiro
+   x, alc, gas, dies: inteiro
 
 Inicio
+      alc <- 0   //recebe 0 para iniciar com +1 e contabilizar todos os números digitados no final
+      gas <- 0
+      dies <- 0
 
    enquanto x <> 4 faca
+
+      escolha x
+      caso 1
+         alc <- alc + 1
+      caso 2
+         gas <- gas + 1
+      caso 3
+         dies <- dies + 1
+      fimescolha
+
       escreva("Informe um código (1, 2, 3) ou 4 para parar: ")
       leia(x)
+   fimenquanto
 
-      se x = 4 entao
-         escreva("MUITO OBRIGADA!")
-      fimse
+      //se x = 4 entao  //ñ é estrutura se, pois há diversas opções para escolher
+        // escreva("MUITO OBRIGADA!")
+      //fimse
 
-      alc <- 1
-      gas <- 2
-      dies <- 3
-      
+
+      escreva("MUITO OBRIGADA!")
       escreval("Álcool: ", alc)
       escreval("Gasolina: ", gas)
       escreval("Diesel: ", dies)
