@@ -1,9 +1,9 @@
 Algoritmo "validacao_de_nota"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Nelio Alves
-// DescriÁ„o   : FaÁa um programa que leia as notas referentes ‡s duas avaliaÁıes
-// de um aluno. Calcule e imprima a mÈdia semestral. FaÁa com que o algoritmo sÛ
-// aceite notas v·lidas (uma nota v·lida deve pertencer ao intervalo[0,10]). Cada
+// Descri√ß√£o   : Fa√ßa um programa que leia as notas referentes √†s duas avalia√ß√µes
+// de um aluno. Calcule e imprima a m√©dia semestral. Fa√ßa com que o algoritmo s√≥
+// aceite notas v√°lidas (uma nota v√°lida deve pertencer ao intervalo[0,10]). Cada
 // nota deve ser validada separadamente.
 // Autor(a)    : Yndianara
 // Data atual  : 19/06/2023
@@ -13,26 +13,20 @@ Inicio
 
    escreva("Digite a primeira nota: ")
    leia(n1)
+
+   enquanto (n1 < 0) ou (n1 > 10) faca
+      escreva("Valor invalido! Tente novamente: ")
+      leia(n1)
+   fimenquanto
+
    escreva("Digite a segunda nota: ")
    leia(n2)
 
-   media <- (n1 + n2) / 2
-   escreval("MEDIA = ", media:2:2)
-
-   enquanto (n1 < 0.10) ou (n2 < 0.10) faca
+   enquanto (n2 < 0) ou (n2 > 10) faca
       escreva("Valor invalido! Tente novamente: ")
-      leia(n1)
-      escreva("Digite a primeira nota: ")
-      leia(n1)
-      escreva("Digite a segunda nota: ")
       leia(n2)
-      escreva("MEDIA = ", media:2:2)
-      //leia(n1)
-      //fimse
    fimenquanto
 
-   //se media < 0.10 entao
-      //leia(n1)
-   //fimse
-
+   media <- (n1 + n2) / 2
+   escreval("MEDIA = ", media:4:2)
 Fimalgoritmo
