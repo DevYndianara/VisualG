@@ -37,13 +37,8 @@ Inicio
         // escreva("MUITO OBRIGADA!")
       //fimse
 
-
       escreva("MUITO OBRIGADA!")
       escreval("Álcool: ", alc)
       escreval("Gasolina: ", gas)
       escreval("Diesel: ", dies)
-      
-   fimenquanto
-
-
 Fimalgoritmo
