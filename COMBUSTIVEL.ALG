@@ -1,13 +1,13 @@
 Algoritmo "combustivel"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Nelio Alves
-// DescriÁ„o   : Um posto de combustÌveis deseja determinar qual de seus produtos
-// tem a preferÍncia de seus clientes. Escreva um algoritmo para ler o tipo de
-// combustÌvel abastecido (codificado da seguinte forma: 1.¡lcool; 2.Gasolina;
-// 3. Diesel; 4. Fim). Caso o usu·rio informe um cÛdigo inv·lido (fora da faixa de
-// 1 a 4) deve ser solicitado um novo cÛdigo (atÈ que seja v·lido). O programa ser·
-// encerrado quando o cÛdigo informado for o n˙mero 4, devendo ent„o mostrar a
-// mensagem 'MUITO OBRIGADO', bem como a quantidade de cada combustÌvel.
+// Descri√ß√£o   : Um posto de combust√≠veis deseja determinar qual de seus produtos
+// tem a prefer√™ncia de seus clientes. Escreva um algoritmo para ler o tipo de
+// combust√≠vel abastecido (codificado da seguinte forma: 1.√Ålcool; 2.Gasolina;
+// 3. Diesel; 4. Fim). Caso o usu√°rio informe um c√≥digo inv√°lido (fora da faixa de
+// 1 a 4) deve ser solicitado um novo c√≥digo (at√© que seja v√°lido). O programa ser√°
+// encerrado quando o c√≥digo informado for o n√∫mero 4, devendo ent√£o mostrar a
+// mensagem 'MUITO OBRIGADO', bem como a quantidade de cada combust√≠vel.
 // Autor(a)    : Yndianara
 // Data atual  : 22/06/2023
 Var
@@ -16,19 +16,19 @@ Var
 Inicio
 
    enquanto x <> 4 faca
-      escreva("Informe um cÛdigo (1, 2, 3) ou 4 para parar: ")
+      escreva("Informe um c√≥digo (1, 2, 3) ou 4 para parar: ")
       leia(x)
 
       se x = 4 entao
          escreva("MUITO OBRIGADA!")
       fimse
 
-      //alc <- 1
-      //gas <- 2
-      //dies <- 3
+      alc <- 1
+      gas <- 2
+      dies <- 3
       
-      escreval("¡lcool: ", alc)
-      escreval("Gasolilna: ", gas)
+      escreval("√Ålcool: ", alc)
+      escreval("Gasolina: ", gas)
       escreval("Diesel: ", dies)
       
    fimenquanto
