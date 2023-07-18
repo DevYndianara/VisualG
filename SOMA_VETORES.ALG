@@ -1,8 +1,8 @@
 Algoritmo "soma_vetores"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Nelio Alves
-// DescriÁ„o   : FaÁa um programa para ler dois vetores A e B, contendo N elementos cada.
-// Em seguida, gere um terceiro vetor C onde cada elemento de C È a soma dos elemntos
+// Descri√ß√£o   : Fa√ßa um programa para ler dois vetores A e B, contendo N elementos cada.
+// Em seguida, gere um terceiro vetor C onde cada elemento de C √© a soma dos elemntos
 // correspondentes de A e B. Imprima o vetor C gerado.
 // Autor(a)    : Yndianara
 // Data atual  : 17/07/2023
@@ -17,22 +17,23 @@ Inicio
    leia(n)
 
    escreval("Digite os valores do vetor A: ")//texto sempre fora do for
-   para i de 0 ate a-1 faca
+   para i de 0 ate n-1 faca //sempre sera n, o vetor [a,b,c]√© para armazenar os n√∫meros
       leia(a[i])
    fimpara
 
    escreval("Digite os valores do vetor B: ")
-   para i de 0 ate b-1 faca
+   para i de 0 ate n-1 faca
       leia(b[i])
    fimpara
 
-   para i de 0 ate n-1 faca
+   para i de 0 ate n-1 faca //la√ßo para determinar o que √© o vetor [c]
       c[i] <- a[i] + b[i]
    fimpara
 
    escreval("Vetor resultante: ")
-   para i de 0 ate c-1 faca
-      leia(c[i])
+   para i de 0 ate n-1 faca
+      //leia(c[i])
+      escreval(c[i]) //escreval pois precisa ser mostrado na tela os valores do vetor
    fimpara
 
 Fimalgoritmo
