@@ -1,49 +1,40 @@
 Algoritmo "media_pares"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Nelio Alves
-// Descrição   : Fazer um programa para ler um vetor de N números inteiros. Em seguida,
-// mostrar na tela a média aritmética somente dos numeros pares lidos, com uma casa decimal.
-// Se nenhum número par for digitado, mostrar a mensagem "NENHUM NÚMERO PAR"
+// DescriÃ§Ã£o   : Fazer um programa para ler um vetor de N nÃºmeros inteiros. Em seguida,
+// mostrar na tela a mÃ©dia aritmÃ©tica somente dos numeros pares lidos, com uma casa decimal.
+// Se nenhum nÃºmero par for digitado, mostrar a mensagem "NENHUM NÃšMERO PAR"
 // Autor(a)    : Yndianara
 // Data atual  : 18/07/2023
 Var
-   n, i: inteiro
-   media, soma: real
+   n, i, soma, quantP: inteiro
+   media: real
    x: vetor [0..9] de inteiro
 
 Inicio
-   escreva("Quantos elementos vai ter o vetor? ")
+    escreva("Quantos elementos vai ter o vetor? ")
    leia(n)
 
    para i de 0 ate n-1 faca
-      escreva("Digite um número: ")//dentro do for pois precisa repetir
+      escreva("Digite um nÃºmero: ")//dentro do for pois precisa repetir
       leia(x[i])
    fimpara
 
    soma <- 0
+   quantP <- 0 //para iniciar a contagem de quantos nÃºmeros pares hÃ¡ no vetor x
 
-   para i de 0 ate n-1 faca //laço para somar os vetores
-      soma <- soma + x[i]
+   para i de 0 ate n-1 faca//laÃ§o para somar os vetores e determinar o nÃºmero par
+      se x[i] % 2 = 0 entao
+         soma <- soma + x[i]
+         quantP <- quantP + 1
+      fimse
    fimpara
 
-   media <- soma / n //determinar a média após o laço de soma
-   escreval("Media dos pares: ", media:3:1)
-
-   escreval
-   escreva("Quantos elementos vai ter o vetor? ")
-   leia(n)
-
-   para i de 0 ate n-1 faca
-      escreva("Digite um número: ")
-      leia(x[i])
-   fimpara
-
-   //para i de 0 ate n-1 faca
-   se x[i] % 2 > 0 entao
-      escreval("NENHUM NÚMERO PAR")
+   se quantP = 0 entao
+      escreval("NENHUM NÃšMERO PAR")
    senao
-      escreval("Todos são pares")
+      media <- soma / quantP
+      escreval("MÃ©dia dos pares: ", media:3:1)
    fimse
-   //fimpara
 
 Fimalgoritmo
